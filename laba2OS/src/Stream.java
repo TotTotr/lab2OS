@@ -2,7 +2,7 @@ public class Stream {
 
 	private int maxTimeOfStream;
 	private String streamId;
-	private int prioritetOfSteram;
+
 	private String procId;
 
 	public Stream(String streamId, int maxTimeOfStream, String procId) {
@@ -12,9 +12,6 @@ public class Stream {
 
 	}
 
-	public int getPrioritet() {
-		return prioritetOfSteram;
-	}
 
 	public String getStreamId() {
 		return streamId;
